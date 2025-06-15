@@ -1,0 +1,9 @@
+.sidebar__logo img {
+  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png");
+}
+
+.sidebar__logo__character img {
+    content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png") !important;
+    width: 60px !important; /* Adjust size as needed */
+    height: auto !important;
+}
