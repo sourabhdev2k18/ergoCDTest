@@ -14,7 +14,8 @@
 
 .login__footer a img {
   width: 65px !important;
-    content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png");
+  filter: invert(50%) !important;
+  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png");
 }
 
 .login__text{
