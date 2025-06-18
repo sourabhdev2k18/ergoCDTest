@@ -8,11 +8,15 @@
     height: auto !important;
 }
 
+
+
 .login__text{
-  display: none;
+  visibility: hidden;
+  position: relative;
 }
 .login__text::before {
   content: "Your Custom Message Here!";
+  visibility: visible;
   display: block;
   font-size: 2rem;
   font-weight: bold;
