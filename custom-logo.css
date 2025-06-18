@@ -10,7 +10,7 @@
 
 
 
-/* .login__text{
+.login__text{
   visibility: hidden;
   position: relative;
 }
@@ -22,5 +22,5 @@
   color: #ffffff;
   font-size: 2.5rem;
   font-weight: 100;
-} */
+}
 
