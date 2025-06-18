@@ -16,11 +16,10 @@
 }
 .login__text::before {
   content: "IS Devops Plateform!";
+  margin : auto;
   visibility: visible;
-  position: relative;
-  margin: auto;
-  top: -10vh;
-  color: #fff;
+  display: block;
+  color: #ffffff;
   font-size: 2.5rem;
   font-weight: 100;
 }
