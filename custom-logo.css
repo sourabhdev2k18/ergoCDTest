@@ -12,6 +12,10 @@
   content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/daf0a72477db605aa9fc596647ee1f948124204b/logo.jpg");
 }
 
+.login__footer img {
+  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/daf0a72477db605aa9fc596647ee1f948124204b/logo.jpg");
+}
+
 .login__text{
   visibility: hidden;
   position: relative;
