@@ -15,14 +15,13 @@
   position: relative;
 }
 .login__text::before {
-  content: "Your Custom Message Here!";
+  content: "IS Devops Plateform";
+  margin : auto;
   visibility: visible;
   display: block;
-  font-size: 2rem;
-  font-weight: bold;
+  top: -10vh;
   color: #ffffff;
-  background-color: #007bff;
-  padding: 10px;
-  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 100;
 }
 
