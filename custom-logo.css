@@ -10,18 +10,18 @@
 
 
 
-/* .login__text{
+.login__text{
   visibility: hidden;
   position: relative;
 }
 .login__text::before {
-  content: "IS Devops Plateform";
-  margin : auto;
+  content: "IS Devops Plateform!";
   visibility: visible;
-  display: block;
+  position: relative;
+  margin: auto;
   top: -10vh;
-  color: #ffffff;
+  color: #fff;
   font-size: 2.5rem;
   font-weight: 100;
-} */
+}
 
