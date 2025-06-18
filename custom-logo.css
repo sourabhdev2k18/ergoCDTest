@@ -4,7 +4,7 @@ content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4
 }
 
 .sidebar__logo__character {
-  visibility: hidden;
+  visibility: hidden !important;
 }
 
 .login__box img {
