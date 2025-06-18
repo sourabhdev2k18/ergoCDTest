@@ -5,6 +5,7 @@
 /*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/77f9ac721201b853397959b2008f87e4e405c8ea/homescreenlogo.png"); */
   
   height: 0vh !important;
+  width: 35%;
 }
 
 .sidebar__logo img {
