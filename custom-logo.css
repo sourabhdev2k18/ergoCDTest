@@ -1,3 +1,10 @@
+link[rel="icon"], link[rel="shortcut icon"] {
+  display: none !important;
+}
+
+/* Add a new favicon */
+@import url('https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/small_logo.png');
+
 .login .argo__logo{
 /*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/big_logo.jpg"); */
 /*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/77f9ac721201b853397959b2008f87e4e405c8ea/homescreenlogowhite.png"); */
