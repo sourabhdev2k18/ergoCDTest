@@ -1,3 +1,7 @@
+.login .argo__logo{
+  background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/big_logo.jpg");
+}
+
 .sidebar__logo img {
 filter: invert(0%) !important;
 content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/big_logo.jpg");
