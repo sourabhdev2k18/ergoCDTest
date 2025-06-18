@@ -1,11 +1,9 @@
-.sidebar__logo img {
-  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/big_logo.jpg");
+.sidebar__logo__text-logo {
+content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/big_logo.jpg");
 }
 
-.sidebar__logo__character img {
-    content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/small_logo.png") !important;
-    width: 60px !important; /* Adjust size as needed */
-    height: auto !important;
+.sidebar__logo__character {
+content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/small_logo.png");
 }
 
 .login__box img {
