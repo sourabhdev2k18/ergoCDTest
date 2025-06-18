@@ -8,7 +8,7 @@
     height: auto !important;
 }
 
-.login__logo img.logo-image {
+.login__box img {
   content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/daf0a72477db605aa9fc596647ee1f948124204b/logo.jpg");
 }
 
