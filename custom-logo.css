@@ -8,7 +8,7 @@
     height: auto !important;
 }
 
-.login__text h1 {
+.login__text{
   display: none;
 }
 .login__text::before {
