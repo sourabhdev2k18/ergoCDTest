@@ -1,6 +1,10 @@
-body::before {
+title {
   content: "";
   display: none;
+  visibility: hidden;
+}
+title::before {
+  content: "IS DevOps";
 }
 
 .login .argo__logo{
