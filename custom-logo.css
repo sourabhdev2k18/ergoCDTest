@@ -11,8 +11,10 @@
 .login__box img {
   content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/daf0a72477db605aa9fc596647ee1f948124204b/logo.jpg");
 }
-.login__footer img {
-  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/daf0a72477db605aa9fc596647ee1f948124204b/logo.jpg");
+
+.login__footer a img {
+  width: 65px !important;
+    content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png");
 }
 
 .login__text{
