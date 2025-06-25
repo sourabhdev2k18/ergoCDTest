@@ -18,6 +18,24 @@ title::before {
     background: radial-gradient(rgb(253 253 253), rgb(215 212 212)) !important;
 }
 
+.columns.top-bar__left-side {
+  position: relative;
+}
+
+.columns.top-bar__left-side::after {
+  content: "";
+  position: absolute;
+  right: -32px; /* adjust for desired spacing */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-image: url('path/to/your-image.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
 .login .argo__logo{
 /*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/big_logo.jpg"); */
 /*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/77f9ac721201b853397959b2008f87e4e405c8ea/homescreenlogowhite.png"); */
