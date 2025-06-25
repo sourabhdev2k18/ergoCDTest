@@ -7,7 +7,7 @@ title::before {
   content: "IS DevOps";
 }
 
-.login::after {
+#login {
     min-height: 100vh !important;
     background-color: linear-gradient(to top left, rgba(183, 190, 214, 0.8) 0%, rgba(193, 150, 58, 0.8) 100%), url("assets/images/stars.gif") !important;
     display: flex !important;
