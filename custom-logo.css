@@ -41,7 +41,7 @@ content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4
   position: relative;
 }
 .login__text::before {
-  content: "IS DevOps Platform!";
+  content: "IS DevOps Platform";
   margin : auto;
   visibility: visible;
   display: block;
