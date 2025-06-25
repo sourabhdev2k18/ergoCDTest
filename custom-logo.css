@@ -7,6 +7,10 @@ title::before {
   content: "IS DevOps";
 }
 
+.sidebar__version {
+    display: none;
+}
+
 .login .argo__logo{
 /*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/big_logo.jpg"); */
 /*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/77f9ac721201b853397959b2008f87e4e405c8ea/homescreenlogowhite.png"); */
@@ -20,8 +24,9 @@ title::before {
 
 .sidebar__logo img {
 filter: invert(0%) !important;
+height: 35px;
 /* content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/big_logo.jpg"); */
-  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/b518e80de0ef100663ad895ed924f611d9bf859f/homescreenlogowhite1.png");
+content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/b518e80de0ef100663ad895ed924f611d9bf859f/homescreenlogowhite1.png");
 }
 
 .sidebar__logo__character {
