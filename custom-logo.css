@@ -12,7 +12,7 @@ title::before {
 }
 
 .sidebar {
-    background-color: "linear-gradient(90deg,	#6d6d6d, #353535) !important";
+    background-color: "rgb(57 27 27) !important";
 }
   .theme-light .top-bar {
     background: radial-gradient(rgb(253 253 253), rgb(215 212 212)) !important;
