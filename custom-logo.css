@@ -15,6 +15,7 @@ title::before {
   
   height: 0vh !important;
   width: 35%;
+  margin-bottom: 150px !important;
 }
 
 .sidebar__logo img {
