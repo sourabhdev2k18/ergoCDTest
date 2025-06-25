@@ -25,14 +25,18 @@ title::before {
 .columns.top-bar__left-side::after {
   content: "";
   position: absolute;
-  right: -32px; /* adjust for desired spacing */
-  top: 50%;
-  transform: translateY(-50%);
-  width: 24px;
+  right: 220px;
+  transform: translateY(-100%);
+  width: 75px;
   height: 24px;
   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png");
   background-size: contain;
   background-repeat: no-repeat;
+  padding-bottom: 35px; 
+  background-position: center;
+  z-index: 1;
+  display: flex;
+  align-items: center;  
 }
 
 
