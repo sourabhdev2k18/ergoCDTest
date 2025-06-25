@@ -7,6 +7,19 @@ title::before {
   content: "IS DevOps";
 }
 
+.login {
+  background-color: linear-gradient(to top left, rgba(183, 190, 214, 0.8) 0%, rgba(193, 150, 58, 0.8) 100%), url("assets/images/stars.gif");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: "#333";
+  font-family: "Arial", sans-serif;
+  font-size: "16px";
+}
+
 .sidebar__version {
     display: none !important;
 }
