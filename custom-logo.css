@@ -30,7 +30,7 @@ title::before {
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
-  background-image: url('path/to/your-image.png');
+  background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
