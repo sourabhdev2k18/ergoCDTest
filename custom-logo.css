@@ -18,8 +18,8 @@ title::before {
 }
 
 .sidebar {
-/*   background-color: #391B1B !important; */
-      background: linear-gradient(to top left, rgba(183, 190, 214, 0.8) 0%, rgba(193, 150, 58, 0.8) 100%), url("assets/images/stars.gif") !important;
+  background-color: #391B1B !important;
+/*       background: linear-gradient(to top left, rgba(183, 190, 214, 0.8) 0%, rgba(193, 150, 58, 0.8) 100%), url("assets/images/stars.gif") !important; */
 }
   .theme-light .top-bar {
     background: radial-gradient(rgb(253 253 253), rgb(215 212 212)) !important;
