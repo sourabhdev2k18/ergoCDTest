@@ -121,4 +121,11 @@ content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/b518e8
   100% { transform: rotate(360deg); }
 }
 
+/* New Styles from screenshots */
+.sidebar__logo-container {
+  margin-left: -45px;
+}
 
+.sidebar__logo__text-logo {
+  height: 5em;
+}
