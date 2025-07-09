@@ -123,6 +123,11 @@ height: 45px !important;
   100% { transform: rotate(360deg); }
 }
 
+.empty-state {
+  display: none !important;
+}
+
+
 /* New Styles from screenshots */
 .sidebar__logo-container {
   margin-left: -45px;
