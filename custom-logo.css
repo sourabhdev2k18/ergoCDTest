@@ -1,3 +1,4 @@
+/* Title override */
 title {
   content: "";
   display: none;
@@ -7,27 +8,37 @@ title::before {
   content: "IS DevOps";
 }
 
+/* Login background */
 .login {
-    min-height: 100vh !important;
-    background: linear-gradient(to top left, rgba(183, 190, 214, 0.8) 0%, rgba(193, 150, 58, 0.8) 100%), url("assets/images/stars.gif") !important;
-    display: flex !important;
+  min-height: 100vh !important;
+  background: linear-gradient(
+      to top left,
+      rgba(183, 190, 214, 0.8) 0%,
+      rgba(193, 150, 58, 0.8) 100%
+    ),
+    url("assets/images/stars.gif") !important;
+  display: flex !important;
 }
 
+/* Hide version in sidebar */
 .sidebar__version {
-    display: none !important;
+  display: none !important;
 }
 
+/* Sidebar background */
 .sidebar {
   background-color: #391B1B !important;
 }
-  .theme-light .top-bar {
-    background: radial-gradient(rgb(253 253 253), rgb(215 212 212)) !important;
+
+/* Top bar background */
+.theme-light .top-bar {
+  background: radial-gradient(rgb(253 253 253), rgb(215 212 212)) !important;
 }
 
+/* Insert custom logo in top-left nav */
 .columns.top-bar__left-side {
   position: relative;
 }
-
 .columns.top-bar__left-side::after {
   content: "";
   position: absolute;
@@ -38,59 +49,52 @@ title::before {
   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  padding-bottom: 35px; 
   background-position: center;
   z-index: 1;
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
-
-img.login img.argo__logo{
-  background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7fb7fbb2307649643e93dab9d6b4e9e2861ab675/homescreenlogowhite1_final_.png");
-  height: 0vh !important;
-  width: 35%;
-  margin-bottom: 150px !important;
+/* Override login logo image */
+img.login-logo,
+.login__box img {
+  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/daf0a72477db605aa9fc596647ee1f948124204b/logo.jpg") !important;
+  width: auto !important;
+  height: auto !important;
 }
 
+/* Footer logo override */
+.login__footer a img {
+  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png") !important;
+  width: 65px !important;
+  filter: invert(0%) !important;
+}
+
+/* Sidebar logo overrides */
 .sidebar__logo img {
-filter: invert(0%) !important;
-height: 45px !important;
-/* content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/big_logo.jpg"); */
-/* content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/b518e80de0ef100663ad895ed924f611d9bf859f/homescreenlogowhite1.png"); */
-  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/0609181b99947b90880e5a8933a283a1afa982ed/homescreenlogowhite1_final_white.png");
+  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/0609181b99947b90880e5a8933a283a1afa982ed/homescreenlogowhite1_final_white.png") !important;
+  filter: invert(0%) !important;
+  height: 45px !important;
 }
-
 .sidebar__logo__character {
   visibility: hidden !important;
 }
 
-.login__box img {
-  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/daf0a72477db605aa9fc596647ee1f948124204b/logo.jpg");
-}
-
-.login__footer a img {
-  width: 65px !important;
-  filter: invert(0%) !important;
-  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png");
-}
-
-.login__text{
+/* Custom login text */
+.login__text {
   visibility: hidden;
   position: relative;
   top: 10vh !important;
 }
 .login__text::before {
   content: "IS DevOps Platform";
-  margin : auto;
-  visibility: visible;
   display: block;
   color: #ffffff;
   font-size: 2.5rem;
   font-weight: 100;
 }
 
-/* Full-screen loader */
+/* Full-screen loader styling */
 #loader {
   position: fixed;
   top: 0;
@@ -103,7 +107,6 @@ height: 45px !important;
   align-items: center;
   z-index: 9999;
 }
-
 .spinner {
   border: 16px solid #f3f3f3;
   border-top: 16px solid #3498db;
@@ -112,10 +115,7 @@ height: 45px !important;
   height: 120px;
   animation: spin 2s linear infinite;
 }
-
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-
-
