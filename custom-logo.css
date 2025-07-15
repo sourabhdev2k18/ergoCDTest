@@ -46,7 +46,7 @@ title::before {
 }
 
 
-img.login, img.argo__logo{
+img.login img.argo__logo{
   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7fb7fbb2307649643e93dab9d6b4e9e2861ab675/homescreenlogowhite1_final_.png");
   height: 0vh !important;
   width: 35%;
