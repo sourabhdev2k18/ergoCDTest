@@ -1,5 +1,15 @@
-body { visibility: hidden; animation: showBody 1s ease forwards; animation-delay: 2s; }
-@keyframes showBody { to { visibility: visible; } }
+/* 1. Initially hide UI to prevent default logo flash */
+body {
+  visibility: hidden;
+  animation: showBody 0.5s ease forwards;
+  animation-delay: 3s; /* Adjust delay (in seconds) to give your assets time to load */
+}
+
+/* 2. Animation to make body visible after delay */
+@keyframes showBody {
+  to { visibility: visible; }
+}
+
 
 title {
   content: "";
