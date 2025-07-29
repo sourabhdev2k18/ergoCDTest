@@ -28,7 +28,7 @@ title::before {
   color: #F2F0EE !important;
 }
 .top-bar, .top-bar__main, .top-bar__title {
-  background-color: #4A312F !important; /* lighter and warmer than sidebar */
+  background-color: #6e5b5a !important; /* lighter and warmer than sidebar */
   color: #F2F0EE !important;
 }
 
