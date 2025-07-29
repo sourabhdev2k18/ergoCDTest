@@ -34,7 +34,7 @@ a, .selected, .top-bar__title { color: #00B5AD !important; }
 
 
   .theme-light .top-bar {
-    background: radial-gradient(rgb(253 253 253), rgb(215 212 212)) !important;
+/*     background: radial-gradient(rgb(253 253 253), rgb(215 212 212)) !important; */
 }
 
 .columns.top-bar__left-side {
@@ -48,7 +48,7 @@ a, .selected, .top-bar__title { color: #00B5AD !important; }
   transform: translateY(-100%);
   width: 75px;
   height: 24px;
-  background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png");
+/*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bd5bcafbcef577bc1e39a1b42681f643d7125622/intelliswiftLogo.png"); */
   background-size: contain;
   background-repeat: no-repeat;
   padding-bottom: 35px; 
