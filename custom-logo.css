@@ -21,15 +21,15 @@ title::before {
   background-color: #391B1B !important;
 } */
 
-.sidebar, .nav-bar { background: #05030A; color: #E5E1E6; }
-.page__content-wrapper, .sliding-panel__header, .sliding-panel__body { background: #1F1B28; color: #E5E1E6; }
+.sidebar, .nav-bar { background: #05030A !important; color: #E5E1E6 !important; }
+.page__content-wrapper, .sliding-panel__header, .sliding-panel__body { background: #1F1B28 !important; color: #E5E1E6 !important; }
 .argo-button--base { background: #6200EE !important; }
 .argo-button--base-o { border-color: #6200EE !important; color: #6200EE !important; }
 a, .selected, .top-bar__title { color: #BB86FC !important; }
 .tabs__indicator { background: #BB86FC !important; }
-.app-status-synced { color: #03DAC6; }
-.app-status-progressing { color: #FFD600; }
-.app-status-outofsync { color: #CF6679; }
+.app-status-synced { color: #03DAC6 !important; }
+.app-status-progressing { color: #FFD600 !important; }
+.app-status-outofsync { color: #CF6679 !important; }
 
   .theme-light .top-bar {
     background: radial-gradient(rgb(253 253 253), rgb(215 212 212)) !important;
