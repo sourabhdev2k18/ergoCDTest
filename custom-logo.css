@@ -4,6 +4,10 @@ body {
   position: relative;
 }
 
+html > head > title::before {
+  content: "IS DevOps Platform";
+}
+
 /* Full-screen loader (a simple spinner) */
 body::before {
   content: "";
