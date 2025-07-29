@@ -17,9 +17,38 @@ title::before {
     display: none !important;
 }
 
-.sidebar {
+/* .sidebar {
   background-color: #391B1B !important;
+} */
+
+.sidebar, .nav-bar {
+  background: #0A0F2C !important;
+  color: #E0FFFF !important;
 }
+
+.page__content-wrapper,
+.sliding-panel__header,
+.sliding-panel__body {
+  background: #1B3A2A !important;
+  color: #EDE6D6 !important;
+}
+
+.argo-button--base { background: #009EFF !important; }
+.argo-button--base-o { color: #009EFF !important; border-color: #009EFF !important; }
+
+/* Links, selected tabs */
+a, .selected, .top-bar__title {
+  color: #00FFD7 !important;
+}
+.tabs__indicator {
+  background: #00FFD7 !important;
+}
+
+/* Status indicators */
+.app-status-synced { color: #4CAF50; }
+.app-status-progressing { color: #FFEB3B; }
+.app-status-outofsync { color: #F44336; }
+
   .theme-light .top-bar {
     background: radial-gradient(rgb(253 253 253), rgb(215 212 212)) !important;
 }
