@@ -58,7 +58,7 @@ title::before {
 }
 
 a, .selected, .tabs__indicator, .top-bar__title {
-  color: #3b2221 !important;
+  color: #fff !important;
 }
 
 .app-status-synced { color: #3DC45B !important; }
