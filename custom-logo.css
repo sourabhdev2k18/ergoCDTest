@@ -65,6 +65,10 @@ a, .selected, .tabs__indicator, .top-bar__title {
 .app-status-progressing { color: #F4D35E !important; }
 .app-status-outofsync { color: #3b2221 !important; }
 
+.theme-light .top-bar__breadcrumbs {
+  color: #fff !important;
+}
+
 /*  */
 
 
