@@ -21,32 +21,56 @@ title::before {
   background-color: #391B1B !important;
 } */
 
-.sidebar, .nav-bar { background: #0F1F3D; color: #E0E5EC !important; }
+/* Sidebar / Primary Navigation */
+.sidebar, .nav-bar {
+  background: #2A1F1E !important;
+  color: #F2F0EE !important;
+}
 
+/* Top Bar / Header */
 .top-bar, .top-bar__main, .top-bar__title {
-  background-color: #12304A !important;
-  color: #E0E5EC !important;
+  background-color: #3B2524 !important;
+  color: #F2F0EE !important;
 }
 
 .page__content-wrapper,
 .sliding-panel__header,
 .sliding-panel__body {
-  background: #1A2635; color: #E0E5EC !important;
+  background: #3A2A2A !important;
+  color: #F2F0EE !important;
 }
 
+/* Primary Buttons */
 .argo-button--base {
-  background: #4BA3C3 !important; color: #FFF !important;
+  background: #E03E36 !important;
+  color: #FFFFFF !important;
 }
-.argo-button--base-o {
-  border-color: #4BA3C3 !important; color: #4BA3C3 !important;
-}
-a, .selected, .tabs__indicator {
-  color: #4BA3C3 !important;
+.argo-button--base:hover {
+  opacity: 0.9 !important;
 }
 
-.app-status-synced { color: #4CD964 !important; }
-.app-status-progressing { color: #FFCC00 !important; }
-.app-status-outofsync { color: #FF3B30 !important; }
+/* Secondary (outline) Buttons */
+.argo-button--base-o {
+  border-color: #E03E36 !important;
+  color: #E03E36 !important;
+}
+.argo-button--base-o:hover {
+  background: #E03E36 !important;
+  color: #FFFFFF !important;
+}
+
+a, .selected, .top-bar__title {
+  color: #E03E36 !important;
+}
+.tabs__indicator {
+  background: #E03E36 !important;
+}
+
+/* Status indicators */
+.app-status-synced { color: #3DC45B !important; }
+.app-status-progressing { color: #F4D35E !important; }
+.app-status-outofsync { color: #E03E36 !important; }
+
 
 
 
