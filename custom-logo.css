@@ -40,7 +40,7 @@ title::before {
 }
 
 .argo-button--base {
-  background: #E03E36 !important;
+  background: #3b2221 !important;
   color: #FFFFFF !important;
 }
 .argo-button--base:hover {
@@ -48,22 +48,22 @@ title::before {
 }
 
 .argo-button--base-o {
-  border-color: #E03E36 !important;
-  color: #E03E36 !important;
+  border-color: #3b2221 !important;
+  color: #3b2221 !important;
 }
 
 .argo-button--base-o:hover {
-  background: #E03E36 !important;
+  background: #3b2221 !important;
   color: #FFFFFF !important;
 }
 
 a, .selected, .tabs__indicator, .top-bar__title {
-  color: #E03E36 !important;
+  color: #3b2221 !important;
 }
 
 .app-status-synced { color: #3DC45B !important; }
 .app-status-progressing { color: #F4D35E !important; }
-.app-status-outofsync { color: #E03E36 !important; }
+.app-status-outofsync { color: #3b2221 !important; }
 
 /*  */
 
