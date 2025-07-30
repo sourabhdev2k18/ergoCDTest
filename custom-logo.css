@@ -196,3 +196,13 @@ height: 45px !important;
 .sidebar__logo__text-logo {
   height: 5em;
 }
+
+.filters-group .filters-group__title {
+  display: none !important;
+}
+.filter__item {
+  display: none !important;
+}
+#sidebar-tools {
+  display: none !important;
+}
