@@ -4,7 +4,7 @@ title {
   visibility: hidden;
 }
 title::before {
-  content: "IS DevOps";
+  content: "iDep";
 }
 
 .login {
