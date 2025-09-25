@@ -4,7 +4,7 @@ title {
   visibility: hidden;
 }
 title::before {
-  content: "IS DevOps";
+  content: "iDevOps";
 }
 
 .login {
@@ -111,7 +111,8 @@ a, .selected, .tabs__indicator, .top-bar__title {
 /*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/77f9ac721201b853397959b2008f87e4e405c8ea/homescreenlogowhite.png"); */
 /*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/b518e80de0ef100663ad895ed924f611d9bf859f/homescreenlogowhite1.png"); */
 /*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7fb7fbb2307649643e93dab9d6b4e9e2861ab675/homescreenlogowhite1_final_.png"); */
-     background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7fcaea6808ce2e8976336af41d3e492ed561d0f1/homescreenlogowhite1_final_2.png");
+/* background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7fcaea6808ce2e8976336af41d3e492ed561d0f1/homescreenlogowhite1_final_2.png"); */
+     background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bf5170ac5f1bf2446f3b062cd38614773c08f63d/homescreenlogowhite1_final_3.png");
 /*   background-image: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/77f9ac721201b853397959b2008f87e4e405c8ea/homescreenlogo.png"); */
   
   height: 0vh !important;
@@ -125,7 +126,8 @@ height: 45px !important;
 /* content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7a49b4aa6dc8a23629327dadf70d9aa0fc678175/big_logo.jpg"); */
 /* content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/b518e80de0ef100663ad895ed924f611d9bf859f/homescreenlogowhite1.png"); */
 /*   content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/0609181b99947b90880e5a8933a283a1afa982ed/homescreenlogowhite1_final_white.png"); */
-   content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7fcaea6808ce2e8976336af41d3e492ed561d0f1/homescreenlogowhite1_final_white_2.png");
+   /* content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7fcaea6808ce2e8976336af41d3e492ed561d0f1/homescreenlogowhite1_final_white_2.png"); */
+   content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bf5170ac5f1bf2446f3b062cd38614773c08f63d/homescreenlogowhite1_final_white_3.png");
 }
 
 .sidebar__logo__character {
@@ -134,7 +136,8 @@ height: 45px !important;
 
 .login__box img {
 /*   content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/daf0a72477db605aa9fc596647ee1f948124204b/logo.jpg"); */
-  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7fcaea6808ce2e8976336af41d3e492ed561d0f1/logo_2.png");
+/* content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/7fcaea6808ce2e8976336af41d3e492ed561d0f1/logo_2.png"); */
+  content: url("https://raw.githubusercontent.com/sourabhdev2k18/ergoCDTest/bf5170ac5f1bf2446f3b062cd38614773c08f63d/logo_3.png");
 }
 
 .login__footer a img {
@@ -149,7 +152,7 @@ height: 45px !important;
   top: 10vh !important;
 }
 .login__text::before {
-  content: "IS DevOps Platform";
+  content: "iDevOps Platform";
   margin : auto;
   visibility: visible;
   display: block;
